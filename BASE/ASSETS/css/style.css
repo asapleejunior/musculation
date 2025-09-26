@@ -1,0 +1,309 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+	user-select: none;
+ }
+ :root {
+    --border : solid black 1px;
+ }
+
+ html {
+	font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+	list-style: none;
+	line-height: 3em;
+}
+
+body {
+	font-family: "Agency fb", sans-serif;
+	background-color: rgba(231, 225, 225, 0.3);
+	display: flex;
+	flex-flow: column;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	height: 15vh;
+	background-color: rgb(32, 31, 31);
+	padding: 1.5% 3%;
+}
+.header h1 {
+	color: whitesmoke;
+}
+.header h1 span{
+	color: rgb(222, 126, 9);
+}
+
+.main {
+	height: 85vh;
+	width: 100%;
+	margin-top: 15vh;
+}
+
+.nav {
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	background-color: rgb(42, 41, 41);
+	padding: 5% 2.3%;
+}
+.nav p {
+	margin-top: 42vh;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.6rem;
+	text-align: center;
+	color: rgb(41, 41, 41);
+}
+
+.nav a {
+	margin-left: 2%;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.08rem;
+}
+
+.container {
+	width: 85%;
+	height: 100%;
+	margin-left: 15%;
+}
+
+ .text-content {
+    height: 100%;
+    width: 100%;
+	padding: 5% 3%;
+	background:url("../IMG/background1.png") repeat center;
+	background-size: cover; 
+	color: whitesmoke;
+ }
+
+a:hover
+{
+	color: rgb(192, 204, 214);
+	text-align: center;
+}
+.WEL
+{
+	font-size: 2rem;
+	color: rgb(141, 186, 200);
+	text-shadow: 4px 4px 4px black;
+	text-align: left;
+	word-spacing: 45px;
+	height: 60px;
+	margin: 2% 1% 1% 6%;
+}
+
+
+.BET
+{
+	font-size: 40px;
+	text-align: center;
+	height: 500px;
+    margin-top: -3%;	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.patate
+{
+	margin-top: -40%;
+	font-size: 20px;
+	text-align: center;
+}
+.ray
+{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 155px;
+	background-color: white;
+	color: grey;
+	border-radius: 2px;
+}
+.prems
+{
+	height: 100px;
+	width: 50px;
+	padding-left:47px;
+	padding-top: 20px;
+}
+.Lorem
+{
+	margin-top: -5px;
+	text-align: justify;
+	margin: 6%;
+}
+.OUR
+{
+	text-align: center;
+	font-size: 25px;
+	color: rgb(32, 31, 31);
+}
+.ALL
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 75px;
+
+}
+
+.Flash {
+	animation-name: flash;
+	animation-duration: 20s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;	
+}
+
+.Flash-reverse {
+	animation-name: flash-reverse;
+	animation-duration: 20s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;	
+}
+.littleheart
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+section {
+    padding: 0.5% 2% 5% 2%;
+}
+.levels
+{
+	color:  rgb(32, 31, 31);
+	font-size: 40px;
+	text-align: center;
+	margin: 50px;
+}
+.lor1
+{
+	margin-top: -50px;
+	text-align: center;
+	margin-top: 170px;
+	width: 270px;
+	margin-left: 20px;
+}
+.rohena
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	height: auto;
+	width: auto;
+	border: 5px  rgb(50, 49, 49) double;
+    padding: 2%;
+}
+.C {
+	color: whitesmoke;
+	background-color: rgb(50, 49, 49);
+	width: 270px;
+	height: 50px;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+.lolo
+{
+	width: 264px;
+	height: 50px;
+	margin-right: 1.7%;
+}
+
+.rohena a {
+    color:  rgb(50, 49, 49);
+    font-weight: bold;
+    margin-top: 2.5%;
+}
+@keyframes flash
+{
+	0%
+	{
+		opacity: 1.5;
+	}
+	25%
+	{
+		opacity: 0.3;
+	}
+	50%
+	{
+		opacity: 1.5;
+	}
+	75%
+	{
+		opacity: 0.3;
+	}
+	100%
+	{
+		opacity: 1.5;
+	}
+}
+
+@keyframes flash-reverse
+{
+	0%
+	{
+		opacity: 0.3;
+	}
+	25%
+	{
+		opacity: 1.5;
+	}
+	50%
+	{
+		opacity: 0.3;
+	}
+	75%
+	{
+		opacity: 1.5;
+	}
+	100%
+	{
+		opacity: 0.3;
+	}
+}
+
+@media (max-width: 1270px) {	
+	.BET
+	{
+		margin-top: -1%;
+	}
+	.patate {
+		margin-top: -43.5%;
+	}
+	.littleheart div:nth-child(3) {
+		margin-top: 5%;
+	}	
+}
+@media (max-width: 1230px) {
+	html {
+		font-size: 17px;
+	}
+}
+@media (max-width: 1024px) {
+	html {
+		font-size: 16.5px;
+	}
+	.BET
+	{
+		margin-top: -1%;
+	}
+	.patate {
+		margin-top: -54.5%;
+	}
+	.littleheart div:nth-child(3) {
+		margin-top: 5%;
+	}	
+}

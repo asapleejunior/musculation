@@ -1,0 +1,29 @@
+.search {
+    margin: 2% 2% 0 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+input {
+    width: 25%;
+    height: 5vh;
+    margin: 2%;
+    text-align: center;
+    outline: none;
+}
+.search i {
+    cursor: pointer;
+    font-weight: bold;
+   font-size: 1.4rem;
+}
+.search i:hover {
+    color: rgb(222, 126, 9);
+}
+
+button {
+    border: none;
+}
+label {
+    font-size: 1.3rem;
+}

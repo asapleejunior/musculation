@@ -1,0 +1,41 @@
+.main-h {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2% 0;
+}
+
+.modif {
+    width: 35%;
+    background-color: rgb(1, 152, 1);
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    padding: 2%;
+    font-size: 1rem;
+    font-family:"agency fb", sans-serif;
+} 
+
+form {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.modif:hover {
+    color: white;
+}
+
+#code {
+    visibility: hidden;
+}
+
+.reset  {
+    width: 100%;
+   height: 11vh;
+   font-size: 1rem;
+   font-family:"agency fb", sans-serif;
+}
