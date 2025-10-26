@@ -1,2 +1,2 @@
-Il s'agit d'un projet en deuxième année consistant à informatiser les personnes qui vont dans une salle de musculation,réalisé avec html,css,langage C,mysql.
-Vous pourrez ouvrir ce projet uniquement avec localhost dans localhost/musculation/ après l'avoir copié dans le dossier www de localhost
+This is a second-year project consisting of computerizing the people who go to a gym, created using HTML, CSS, C language, and MySQL. You can only open this project with localhost in localhost/musculation/ after copying it to the www folder of localhost.  
+Make you allowed CGI to execute .exe 
